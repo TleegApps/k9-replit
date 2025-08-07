@@ -1,0 +1,49 @@
+K9Kompare is a production-ready, mobile-first web application designed to allow users to compare dog breeds, explore breed-specific products, take an AI-powered breed finder quiz, and access educational and adoption resources. The platform combines expert data, interactive tools, and curated e-commerce functionality in a sleek, claymorphic UI built using Next.js 14 (App Router), TypeScript, TailwindCSS, Zustand, Framer Motion.
+Core Features:
+Breed Comparison Tool:
+Horizontally scrollable comparison bar (up to 4 breeds).
+Breed cards: name, image, tagline.
+Interactive trait comparison table: icons, ticks/crosses, emojis, rating bars.
+Highlights “Best in Row” for each trait.
+Tooltips for clarity, pros/cons section, and CTAs like “Find a Puppy” or “Explore Similar Breeds”.
+Breed Data:
+Base data: The Dog API.
+Enriched with Supabase: custom scoring, OpenAI summaries.
+Toggle between visual and text mode.
+Filtering & Search:
+Global search with autocomplete.
+Sidebar filter drawer: multi-selects, sliders, toggles.
+Saved filter profiles and preset tags
+AI Breed Finder Quiz:
+Inputs: lifestyle, experience, allergies, etc.
+Weighted logic maps user responses to traits.
+Outputs: match percentage, detailed breed cards with meters.
+Health & Education:
+Vet-backed breed articles (health, grooming, diet).
+Contextual CTAs for products and tools to increase engagement
+E-Commerce Integration:
+Product categories tied to breeds
+Stripe integration for payments.
+New owner kits and breed-aware suggestions.
+Authentication & Roles:
+Supabase auth: email/password, OAuth.
+Role-based (admin, user) with RLS policies.
+Guest mode with feature limits.
+Design & UX
+UI follows claymorphism: soft pastel colors, large border radii (16–20px), inner/outer shadows.
+Fonts: Montserrat, Open Sans, Roboto Mono.
+Color palette blends Midnight Blue, Mustard Yellow, Mint, Lavender, and Soft Gray.
+Responsive layout with sticky CTAs, animated splash screen, and smooth transitions.
+WCAG AA compliant and fully accessible.
+Technical Specs
+File Structure:
+/app, /components, /context, /hooks, /services, /data, /styles, /public/fonts, /public/icons, /utils, /types
+APIs:
+Supabase
+The Dog API
+OpenAI
+Stripe
+Async fetching with loading/error states.
+Fully SEO-optimized with OpenGraph tags.
+Deliverable:
+A fully integrated production-ready web application with no templates, no placeholders, and all features functional. UI and architecture must match the defined spec, using only the outlined technologies and style systems.
